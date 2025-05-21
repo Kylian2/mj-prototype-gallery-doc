@@ -7,3 +7,5 @@ Deux contraintes sont à prendre en compte dans le choix : premièrement, il fau
 Les possibilités des technologies sont évaluées à travers des *proof of concept*.
 
 Les options explorées à l'heure actuelle sont : Unity 3D et Three.js.
+
+Les démos des tests réalisés sont disponibles dans un monde virtuel dédié : [Galerie des prototypes](https://kylian2.github.io/mj-prototype-gallery/).

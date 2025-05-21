@@ -2,7 +2,7 @@
 version: 1
 project:
   id: 38241692-3014-411e-97da-6855099c56ac
-  title: Galerie des démos
+  title: Galerie des prototypes
   # description:
   # keywords: []
   # authors: []
@@ -18,6 +18,10 @@ project:
       children:
         - file: threejs/02-threejs-1.md
         - file: threejs/02-threejs-2.md
+        - title: "UI"
+        - file: threejs/02-threejs-ui.md
+          children:
+          - file: threejs/02-threejs-3.md
         - file: threejs/02-threejs-res.md
 site:
   template: book-theme
