@@ -1,0 +1,30 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 38241692-3014-411e-97da-6855099c56ac
+  title: Galerie des prototypes
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/kylian2/mj-prototype-gallery
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: README.md
+    - file: unity3D/01-unity-3D.md
+      children:
+        - file: unity3D/01-unity-3D-1.md
+        - file: unity3D/01-unity-3D-res.md
+    - file: threejs/02-threejs.md
+      children:
+        - file: threejs/02-threejs-1.md
+        - file: threejs/02-threejs-2.md
+        - title: "UI"
+        - file: threejs/02-threejs-ui.md
+          children:
+          - file: threejs/02-threejs-3.md
+        - file: threejs/02-threejs-res.md
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
